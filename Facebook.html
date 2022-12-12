@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+
+		}
+		body{
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			background-color: rgb(222, 220, 224);
+		}
+		.container{
+			margin: 10px 20px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+
+		}
+		.leftpart{
+			width: 40%;
+		}
+		h1{
+			color: royalblue;
+			font-size: 80px;
+
+		}
+		h3{
+			color: black;
+			font-size: 30px;
+		}
+		.Rightpart{
+			width: 50%;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+		.loginpage{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: #fff;
+			width: 450px;
+			height: 370px;
+			box-shadow:-10px -10px 15px rgba(0, 0, 0, 0.1),  
+			10px 10px 15px rgba(0, 0, 0, 0.1);
+			border-radius: 15px;
+        }
+      form{
+      	display: flex;
+      	flex-direction: column;
+      	justify-content: center;
+      	align-items: center;
+      	padding: 15px 0px;
+      
+      }
+      input{
+      	width: 380px;
+      	height: 50px;
+      	margin: 10px 0px;
+      	padding: 0px 10px;
+      	outline: none;
+      	border: 1px solid #ccc;
+      	font-size: 15px;
+      	border-radius: 10px;
+      	cursor: default;
+      }
+       button
+      {
+      	width: 100%;
+      	margin-bottom: 15px;
+      	color: white;
+      	font-size: 20px;
+      	font-weight: 600;
+      	border-radius: 5px;
+      	border: none;
+      	padding: 13px 0;
+      	cursor: pointer;
+      	background-color: royalblue;
+      } 
+     
+     
+
+      
+      a {
+      	color: royalblue;
+
+
+      }
+      hr{
+      	border: 1px solid #ccc;
+      	width: 320px;
+      	margin: 20px 0px;
+      }
+      .createaccount{
+      	display: flex;
+      	justify-content: center;
+      	align-items: center;
+      	background-color: green;
+      	width: 250px;
+      	height: 210px;
+      	font-size: 18px;
+      	font-weight: 30px;
+      	color: white;
+      	border-radius: 10px;
+      	cursor: pointer;
+      	margin-bottom: 10px;
+
+      }
+      span{
+      	margin: 20px 0px;
+      	font-size: 18px;
+      	font-weight: 20px;
+      	cursor: default;
+
+      }
+
+   </style>
+</head>
+<body>
+	<div class="container">
+		<div class="leftpart">
+         <h1>facebook</h1>
+         <h3>facebook helps us connect and share with the people in your life.</h3>
+     </div>
+     <div class="Rightpart">
+     	<div class="loginpage">
+     		<form>
+     			<input type="text"  placeholder="Email address or phone Number">
+     			<input type="text"  placeholder="password">
+     			<button type="submit">Log in</button>
+     		</form>
+     		<a href="">Forgot password</a>
+     		<hr>
+     		<div class="createaccount">
+     			Create a new facebook Account
+     		</div>
+     	</div>
+     	<span>create a page for well-known person</span>
+     </div>
+ </div>
+</body>
+</html>
